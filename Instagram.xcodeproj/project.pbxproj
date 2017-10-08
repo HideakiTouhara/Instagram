@@ -12,6 +12,8 @@
 		074242371F8A53E600DFBBBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 074242351F8A53E600DFBBBA /* Main.storyboard */; };
 		074242391F8A53E600DFBBBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 074242381F8A53E600DFBBBA /* Assets.xcassets */; };
 		0742423C1F8A53E600DFBBBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0742423A1F8A53E600DFBBBA /* LaunchScreen.storyboard */; };
+		074242451F8A550800DFBBBA /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074242431F8A550800DFBBBA /* PostTableViewCell.swift */; };
+		074242461F8A550800DFBBBA /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 074242441F8A550800DFBBBA /* PostTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		074242381F8A53E600DFBBBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0742423B1F8A53E600DFBBBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0742423D1F8A53E600DFBBBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		074242431F8A550800DFBBBA /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		074242441F8A550800DFBBBA /* PostTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				074242381F8A53E600DFBBBA /* Assets.xcassets */,
 				0742423A1F8A53E600DFBBBA /* LaunchScreen.storyboard */,
 				0742423D1F8A53E600DFBBBA /* Info.plist */,
+				074242431F8A550800DFBBBA /* PostTableViewCell.swift */,
+				074242441F8A550800DFBBBA /* PostTableViewCell.xib */,
 			);
 			path = Instagram;
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 				0742423C1F8A53E600DFBBBA /* LaunchScreen.storyboard in Resources */,
 				074242391F8A53E600DFBBBA /* Assets.xcassets in Resources */,
 				074242371F8A53E600DFBBBA /* Main.storyboard in Resources */,
+				074242461F8A550800DFBBBA /* PostTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +146,7 @@
 			files = (
 				074242341F8A53E600DFBBBA /* ViewController.swift in Sources */,
 				074242321F8A53E600DFBBBA /* AppDelegate.swift in Sources */,
+				074242451F8A550800DFBBBA /* PostTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
